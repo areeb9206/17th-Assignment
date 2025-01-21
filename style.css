@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 30px;
+  margin: 15px 30px;
+}
+.logo {
+  width: 400px;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+.navi-links {
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
+/* FIRST-SECTION */
+.first-sec{
+    display: flex;
+}
