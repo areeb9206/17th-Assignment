@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Jawan Pakistan</title>
   </head>
   <body>
@@ -12,15 +19,15 @@
         <img class="logo" src="images/1(1).png" alt="LOGO" />
       </div>
       <nav>
-        <a class="navi-links" href="">Home</a>
-        <a class="navi-links" href="">About Us</a>
-        <a class="navi-links" href="">Training</a>
-        <a class="navi-links" href="">Contact Us</a>
+        <a class="nav-links" href="">Home</a>
+        <a class="nav-links" href="">About Us</a>
+        <a class="nav-links" href="">Training</a>
+        <a class="nav-links" href="">Contact Us</a>
       </nav>
     </header>
     <section class="first-sec">
       <div class="first-sec-heading-and-para">
-        <h1>Introduction to Jawan Pakistan</h1>
+        <h1 class="first-sec-heading">Introduction to Jawan Pakistan</h1>
         <br />
         <p>
           The foundation of every state is the education and skills set of its
@@ -42,7 +49,9 @@
         <img class="second-sec-img" src="images/2.png" alt="" />
       </div>
       <div class="second-sec-heading-and-para">
-        <h1>Mission And Vision Behind Jawan Pakistan</h1>
+        <h1 class="second-sec-heading">
+          Mission And Vision<br />Behind Jawan Pakistan
+        </h1>
         <br />
         <p>
           Our vision is to bring our students into the 21st century through
@@ -69,8 +78,11 @@
 
     <section class="third-sec">
       <div>
-        <img class="third-sec-img" src="images/2(1).jpg" alt="" />
-        <h1>MUHAMMAD ALI MUGHAL</h1>
+        <img class="third-sec-img" src="images/mypic2.png.jpg" alt="" />
+        <h1 class="third-sec-heading">
+          <!-- MUHAMMAD ALI MUGHAL -->
+          AREEB AHMED
+        </h1>
         <p>Founder of Jawan Pakistan</p>
       </div>
       <div>
@@ -85,25 +97,40 @@
     </section>
 
     <section class="fourth-sec">
+      <h1 class="fourth-sec-heading">
+        IT Trainings offering in Jawan Pakistan
+      </h1>
       <div class="fourth-sec-three-cont">
         <div class="fourth-sec-grand-child">
           <div>
             <img class="fourth-sec-imgs" src="images/3.png" alt="" />
           </div>
-          <div><h2>Web and mob application development</h2></div>
+          <div>
+            <h2 class="fourth-sec-sub-heading">
+              Web and mob application development
+            </h2>
+          </div>
         </div>
 
         <div class="fourth-sec-grand-child">
           <div>
             <img class="fourth-sec-imgs" src="images/3.png" alt="" />
           </div>
-          <div><h2>Flutter Mobile application development</h2></div>
+          <div>
+            <h2 class="fourth-sec-sub-heading">
+              Flutter Mobile application development
+            </h2>
+          </div>
         </div>
         <div class="fourth-sec-grand-child">
           <div>
             <img class="fourth-sec-imgs" src="images/4.png" alt="" />
           </div>
-          <div><h2>graphic design and video editing</h2></div>
+          <div>
+            <h2 class="fourth-sec-sub-heading">
+              graphic design and video editing
+            </h2>
+          </div>
         </div>
       </div>
 
@@ -112,15 +139,124 @@
           <div>
             <img class="fourth-sec-imgs" src="images/5.png" alt="" />
           </div>
-          <div><h2>digital and social marketing</h2></div>
+          <div>
+            <h2 class="fourth-sec-sub-heading">digital and social marketing</h2>
+          </div>
         </div>
         <div class="fourth-sec-grand-child">
           <div>
             <img class="fourth-sec-imgs" src="images/6.png" alt="" />
           </div>
-          <div><h2>blockchain development</h2></div>
+          <div>
+            <h2 class="fourth-sec-sub-heading">blockchain development</h2>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="fifth-sec">
+      <div>
+        <h1 class="fifth-sec-heading">
+          Glimpses of sessions conducted by Jawan Pakistan
+        </h1>
+      </div>
+      <div class="fifth-sec-first-child">
+        <div class="fifth-sec-second-child">
+          <div>
+            <img style="width: 250px" src="images/1sec(4).png" alt="" />
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 190px"
+              src="images/2sec(4).png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img style="width: 510px" src="images/3sec(4).png" alt="" />
+          </div>
+        </div>
+        <div class="fifth-sec-second-child">
+          <div>
+            <img style="width: 510px" src="images/4sec(4).png" alt="" />
+          </div>
+          <div>
+            <img style="width: 250px" src="images/5sec(4).png" alt="" />
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 190px"
+              src="images/6sec(4).png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sixth-sec">
+      <div class="sixth-sec-first-child">
+        <div></div>
+
+        <form action="">
+          <h1 class="sixth-sec-heading">Contact</h1>
+          <label for=""
+            >Name<span style="color: red; font-size: smaller">*</span></label
+          >
+          <input required type="text" placeholder="Name" name="name" />
+          <label for=""
+            >Email<span style="color: red; font-size: smaller">*</span></label
+          >
+          <input required type="email" placeholder="abc@gmail.com" />
+          <label for=""
+            >Phone No<span style="color: red; font-size: smaller"
+              >*</span
+            ></label
+          >
+          <input required type="number" placeholder="03151234567" />
+          <label for=""
+            >Message<span style="color: red; font-size: smaller">*</span></label
+          >
+          <textarea
+            required
+            name="Message"
+            id=""
+            cols="46"
+            rows="6"
+            style="resize: none; outline: none; padding: 8px"
+          ></textarea>
+          <button class="sixth-sec-btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-first-child">
+        <div><img class="footer-img" src="images/1(1).png" alt="" /></div>
+        <div>
+          <h5>COMPANY</h5>
+          <a class="footer-links" href="">Home</a>
+          <a class="footer-links" href="">About Us</a>
+          <a class="footer-links" href="">Training</a>
+          <a class="footer-links" href="">Contact Us</a>
+        </div>
+        <div>
+          <h5>CONTACT DETAILS</h5>
+          <a class="footer-links" href="">Muhammad Ali Mughal</a>
+          <a class="footer-links" href=""> +923005292675 </a>
+          <a class="footer-links" href=""> jawantechpk@gmail.com </a>
+        </div>
+      </div>
+      <div class="footer-second-child">
+        <div>
+          <p>© 2022 JawanPakistan</p>
+        </div>
+        <div>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
