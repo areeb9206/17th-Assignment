@@ -66,7 +66,7 @@ nav {
 }
 
 .second-sec-heading-and-para {
-  margin: 0px 0px 0px 80px;
+  /* margin: 0px 0px 0px 80px; */
   text-align: justify;
 }
 
@@ -252,7 +252,7 @@ label {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 50px;
+  padding: 20px;
 }
 .footer-img {
   width: 230px;
@@ -430,7 +430,7 @@ label {
     align-items: center;
   }
   .logo {
-    width: 80%;
+    width: 100%;
   }
   nav {
     flex-direction: column;
@@ -473,12 +473,16 @@ label {
   }
   .third-sec-para {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 0px;
   }
 
   /* FOURTH SECTION */
   .fourth-sec {
     padding: 20px 10px;
+  }
+  .fourth-sec-heading{
+    font-size: 1.5rem;
+    padding: 10px;
   }
   .fourth-sec-three-cont,
   .fourth-sec-two-cont {
@@ -498,16 +502,23 @@ label {
   /* FIFTH SECTION */
   .fifth-sec {
     padding: 20px 10px;
+    width: 100%;
   }
   .fifth-sec-heading {
     font-size: 1.5rem;
   }
+
+  .fifth-sec-first-child{
+    flex-direction: column !important;
+   
+  }
   .fifth-sec-second-child {
-    flex-direction: column;
+    /* flex-direction: column !important;  */
+  width: 100%;
     gap: 10px;
   }
   .fifth-sec-imgs {
-    width: 100%;
+    width: 75% !important ;
     max-width: 100%;
   }
 
@@ -520,7 +531,7 @@ label {
   }
   input,
   textarea {
-    width: 100%;
+    width: 95%;
   }
   .sixth-sec-btn {
     width: 100%;
@@ -533,10 +544,11 @@ label {
   .footer-first-child {
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
   }
   .footer-img {
-    width: 50%;
+    width: 100%;
+
   }
   .footer-div {
     width: 100%;
