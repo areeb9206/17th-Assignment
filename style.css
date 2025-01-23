@@ -11,7 +11,8 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px 30px;
-  margin: 15px 30px;
+  padding: 15px 30px;
+  box-shadow: 0px 1px 8px rgb(182, 182, 182);
 }
 .logo {
   width: 300px;
@@ -34,10 +35,7 @@ nav {
 /* FIRST-SECTION */
 .first-sec {
   display: flex;
-  margin: 60px 30px 0 30px;
-  padding: 50px;
-
-  border-bottom: 2px solid black;
+  padding: 50px 50px;
 }
 .first-sec-heading-and-para {
   margin: 40px 20px 0 0;
@@ -48,6 +46,13 @@ nav {
   font-size: 1.8rem;
   color: #006838;
 }
+.first-sec-para {
+  color: #718096;
+  word-spacing: 0.1rem;
+  line-height: 1.3rem;
+  font-size: 1rem;
+  margin: 0%;
+}
 .first-sec-img {
   width: 600px;
 }
@@ -55,10 +60,9 @@ nav {
 /* SECOND SECTION  */
 .second-sec {
   display: flex;
-  margin: 0px 30px 0 30px;
-  padding: 50px;
+  padding: 50px 50px;
   align-items: center;
-  border-bottom: 2px solid black;
+  box-shadow: 0px 4px 10px rgb(182, 182, 182);
 }
 
 .second-sec-heading-and-para {
@@ -71,6 +75,15 @@ nav {
   font-size: 1.8rem;
   color: #006838;
 }
+
+.second-sec-para {
+  color: #718096;
+  word-spacing: 0.1rem;
+  line-height: 1.3rem;
+  font-size: 1rem;
+  margin: 0%;
+}
+
 .second-sec-img {
   width: 600px;
   margin-top: 10px;
@@ -78,11 +91,9 @@ nav {
 
 /* THIRD SECTION  */
 .third-sec {
-  margin: 0px 30px 0 30px;
   padding: 80px;
-  border-bottom: 2px solid black;
   display: flex;
-  gap: 70px;
+  gap: 50px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -101,13 +112,18 @@ nav {
 }
 
 .third-sec-para {
-  width: 600px;
+  width: 700px;
+  color: #718096;
+  word-spacing: 0.3rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin: 0%;
 }
 
 /* FOURTH SEC  */
 .fourth-sec {
-  margin: 40px 30px 0px 30px;
-  border-bottom: 2px solid black;
+  padding: 50px 50px;
+  box-shadow: 0px 4px 10px rgb(182, 182, 182);
 }
 
 .fourth-sec-heading {
@@ -142,13 +158,12 @@ nav {
 
 /* FIFTH SECTION  */
 .fifth-sec {
-  margin: 0px 30px 0 30px;
   padding: 50px;
   display: flex;
   gap: 40px;
   flex-direction: column;
   align-items: center;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(189, 189, 189);
 }
 
 .fifth-sec-heading {
@@ -174,9 +189,7 @@ nav {
 /* SIXTH SECTION  */
 
 .sixth-sec {
-  margin: 0px 30px 0 30px;
-  /* padding: 50px 400px; */
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(189, 189, 189);
 }
 
 .sixth-sec-heading {
@@ -233,13 +246,20 @@ label {
   padding: 50px;
 }
 .footer-img {
-  width: 200px;
+  width: 230px;
+}
+
+.footer-first-child-heading {
+  color: #718096;
+  margin: 0%;
 }
 
 .footer-links {
   display: block;
   font-size: 0.9rem;
   color: #006838;
+  line-height: 1.5rem;
+
   text-decoration: none;
 }
 .footer-links:hover {
@@ -248,8 +268,9 @@ label {
 
 .footer-second-child {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(230, 245, 234);
-  padding: 12px;
+  padding: 12px 200px;
+  color: #718096;
 }
