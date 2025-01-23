@@ -190,6 +190,10 @@ nav {
 
 .sixth-sec {
   border-bottom: 2px solid rgb(189, 189, 189);
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .sixth-sec-heading {
@@ -198,12 +202,9 @@ nav {
   color: #718096;
 }
 
-.sixth-sec-first-child {
-  display: flex;
-  padding: 30px;
-  align-items: center;
-  flex-direction: column;
-}
+/* .sixth-sec-first-child {
+
+} */
 form {
   box-shadow: 2px 2px 8px gray;
   padding: 15px 50px;
@@ -273,4 +274,127 @@ label {
   background-color: rgb(230, 245, 234);
   padding: 12px 200px;
   color: #718096;
+}
+
+@media only screen and (max-width: 480px) {
+  /* HEADER */
+  header {
+    padding: 10px;
+  }
+  .logo {
+    width: 100%;
+  }
+  nav {
+    width: 80%;
+  }
+
+  /* FIRST SECTION  */
+  .first-sec {
+    padding: 20px 10px;
+  }
+  .first-sec-heading-and-para {
+    margin: 0%;
+    padding: 10px;
+  }
+  .first-sec-heading {
+    width: 100%;
+  }
+  .first-sec-para {
+    width: 100%;
+  }
+  .first-sec-img {
+    width: 100%;
+  }
+
+  /* SECOND SECTION  */
+  .second-sec {
+    padding: 20px 10px;
+  }
+  .second-sec-heading-and-para {
+    margin: 0%;
+    padding: 10px;
+  }
+  .second-sec-heading {
+    width: 100%;
+  }
+  .second-sec-para {
+    width: 100%;
+  }
+  .second-sec-img {
+    width: 100%;
+  }
+
+  /* THIRD SECTION  */
+  .third-sec {
+    padding: 20px 10px;
+  }
+  .third-sec div {
+    width: 100%;
+  }
+
+  .third-sec-para {
+    width: 100%;
+  }
+
+  /* FOURTH SECTION  */
+  .fourth-sec {
+    padding: 20px 0;
+    width: 100%;
+  }
+  .fourth-sec-three-cont,
+  .fourth-sec-two-cont {
+    width: 100%;
+    padding: 0%;
+    height: 100%;
+    gap: 10px;
+  }
+  .fourth-sec-grand-child {
+    width: 100%;
+  }
+  .fourth-sec-imgs {
+    width: 100%;
+  }
+
+  /* FIFTH SECTION  */
+  .fifth-sec {
+    width: 100%;
+    padding: 0px 0px;
+  }
+
+  .fifth-sec-heading {
+    width: 100%;
+  }
+  .fifth-sec-second-child {
+    width: 100%;
+  }
+  .fifth-sec-imgs {
+    width: 10%;
+  }
+
+  /* SIXTH SECTION  */
+  .sixth-sec {
+    padding: 0px 0px;
+    width: 100%;
+  }
+
+  /* FOOTER  */
+  footer {
+    width: 100%;
+  }
+  .footer-first-child {
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 15px 0px;
+    text-align: center;
+  }
+  .footer-img {
+    width: 60%;
+  }
+  .footer-div {
+    width: 50%;
+  }
+
+  .footer-second-child {
+    padding: 10px 10px;
+  }
 }
